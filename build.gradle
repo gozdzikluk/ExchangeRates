@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'war'
+    id 'net.ltgt.apt' version '0.10'
+}
+
+apply plugin: 'java'
+apply plugin: 'war'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //jersey servlet
+    compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: '2.27'
+    //javaEE
+    compile group: 'javax', name: 'javaee-api', version: '8.0'
+    //lombok
+    compile 'org.projectlombok:lombok:1.18.2'
+    apt 'org.projectlombok:lombok:1.18.2'
+}
