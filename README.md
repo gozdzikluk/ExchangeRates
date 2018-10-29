@@ -1,7 +1,6 @@
 # ExchangeRates
 
-##### The service's task is to calculate the average exchange rate
-from n-last quotes based on data published by the NBP website.
+##### The service's task is to calculate the average exchange rate from n-last quotes based on data published by the NBP website.
 
 ### API Resources
 #### GET /4JA18L07/exchangerates/rates/{table}/{code}/{topCount}/
