@@ -21,3 +21,8 @@ Response body:
 ```
 {stringValue} pattern: "#0.0000"
 ```
+
+
+### Additional information
+
+The repository contains a ready-made war file to deploy.
